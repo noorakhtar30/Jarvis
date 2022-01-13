@@ -1,30 +1,30 @@
 # Jarvis
 Personal Voice Assistant made with Python and it's libraries.
 # To import a Library
-  To install a library inside your terminal use:
+  To install a library inside your terminal use:  
   pip install module name
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-import pyttsx3  # Voice
-import speech_recognition as sr  # converts audio file to text
-import datetime  # datetime
-import wikipedia  # wikipedia search
-import webbrowser  # displaying web-bases doc
-import os  # operating System
-import cv2  # Face Detection
+import pyttsx3  # Voice  
+import speech_recognition as sr  # converts audio file to text  
+import datetime  # datetime  
+import wikipedia  # wikipedia search  
+import webbrowser  # displaying web-bases doc  
+import os  # operating System  
+import cv2  # Face Detection  
 import sys #System
 
 # Setting the voice
-engine = pyttsx3.init('sapi5')
-voices = engine.getProperty('voices')
-engine.setProperty("rate", 174)
-engine.setProperty('voice', voices[9].id)
+engine = pyttsx3.init('sapi5')  
+voices = engine.getProperty('voices')  
+engine.setProperty("rate", 174)  
+engine.setProperty('voice', voices[9].id)  
 
 # speak Function
-def speak(audio):
-    engine.say(audio)
-    engine.runAndWait()
+def speak(audio):  
+     engine.say(audio)  
+    engine.runAndWait()  
 
 # wishme function to wish 
 def wishMe():
@@ -43,13 +43,16 @@ def wishMe():
 
     speak(' Please tell me how may I help you')
 
-#takecommand to take your voice and convert that voice to text
-def takecommand():
-    r = sr.Recognizer()
-    with sr.Microphone() as source:
-        print("Listening...")
-        r.pause_threshold = 1
-        audio = r.listen(source)
+#takecommand to take your voice and convert that voice to text  
+def takecommand():  [jarvis.txt](https://github.com/noorakhtar30/Jarvis/files/7859788/jarvis.txt)
+[jarvis.txt](https://github.com/noorakhtar30/Jarvis/files/7859791/jarvis.txt)
+[jarvis.txt](https://github.com/noorakhtar30/Jarvis/files/7859793/jarvis.txt)
+
+    r = sr.Recognizer()  
+    with sr.Microphone() as source:  
+        print("Listening...")  
+        r.pause_threshold = 1  
+        audio = r.listen(source)  
 
     try:
         print('Recognizing...')
