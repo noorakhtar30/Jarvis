@@ -44,10 +44,7 @@ def wishMe():
     speak(' Please tell me how may I help you')
 
 #takecommand to take your voice and convert that voice to text  
-def takecommand():  [jarvis.txt](https://github.com/noorakhtar30/Jarvis/files/7859788/jarvis.txt)
-[jarvis.txt](https://github.com/noorakhtar30/Jarvis/files/7859791/jarvis.txt)
-[jarvis.txt](https://github.com/noorakhtar30/Jarvis/files/7859793/jarvis.txt)
-
+def takecommand():  
     r = sr.Recognizer()  
     with sr.Microphone() as source:  
         print("Listening...")  
@@ -209,3 +206,7 @@ if __name__ == '__main__':
             speak('okay! thank you for using me sir!')
             speak('Bye sir, have a good day')
             sys.exit()
+
+
+# Notepad file of the code
+[jarvis.txt](https://github.com/noorakhtar30/Jarvis/files/7859801/jarvis.txt)
