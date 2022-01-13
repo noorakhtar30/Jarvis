@@ -1,7 +1,7 @@
 # Jarvis
 Personal Voice Assistant made with Python and it's libraries.
 # To import a Library
-  To install a library inside your terminal use:  
+  To import a library inside your terminal use:  
   pip install module name
 
 --------------------------------------------------------------------------------------------------------------------------------------
