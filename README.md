@@ -4,7 +4,7 @@ Personal Voice Assistant made with Python and it's libraries.
   To install a library inside your terminal use:
   pip install module name
 
-----------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
 
 import pyttsx3  # Voice
 import speech_recognition as sr  # converts audio file to text
